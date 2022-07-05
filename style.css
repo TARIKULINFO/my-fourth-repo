@@ -1,3 +1,66 @@
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+.text-color {
+  color: rgb(248, 147, 24);
+}
+.first-second-part {
+  display: inline;
+  display: flex;
+  margin-bottom: 100px;
+}
+.background-pic-add {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.hire-me-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(236, 140, 75), rgb(247, 98, 72));
+  padding: 10px 40px;
+  color: aliceblue;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.first-div {
+  width: 50%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.first-div img {
+  width: 100%;
+}
+.second-background {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.shadow {
+  box-shadow: 10px 10px 40px gray;
+  padding: 20px;
+  /* border-left: 7px solid rgb(247, 98, 72); */
+  border-radius: 10px;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#orange {
+  border-left: 7px solid orangered;
+}
+#blue {
+  border-left: 7px solid blueviolet;
+}
+footer {
+  text-align: center;
+}
+.font {
+  font-size: 37px;
+}
+.experiance-area {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
